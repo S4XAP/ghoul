@@ -1,0 +1,15 @@
+#include <iostream>
+#include "windows.h"
+int main()
+{
+  int i = 1000;
+  while (i > 8)
+  {
+    i = i - 7;
+    std::cout << i << " - 7\n";
+    Sleep(1);
+  }
+
+  printf("L E T  M E  D I E\n");
+  return 0;
+}
